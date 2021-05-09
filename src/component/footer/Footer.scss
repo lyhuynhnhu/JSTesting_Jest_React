@@ -1,7 +1,9 @@
+@import '../../styles/variables';
+
 footer {
   display: flex;
   justify-content: space-between;
-  color: grey;
+  color: $grey;
 
   .copyright {
     margin-left: 20px;
@@ -46,19 +48,19 @@ footer {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $medium) {
   .social {
       width: 15%;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: $large) {
   .social {
       width: 12%;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: $huge) {
   .social { 
       width: 8%; 
   }

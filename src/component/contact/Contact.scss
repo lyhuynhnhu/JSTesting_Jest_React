@@ -169,19 +169,19 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $medium) {
   .contact-form { width: 80%; }
   .icon-envelop { padding-top: 6%; }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: $large) {
   .contact-form { width: 75%; }
   .icon-envelop { padding-top: 5%; }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: $huge) {
   .contact-form { width: 60%; }
   .icon-envelop { padding-top: 4%; }
 }

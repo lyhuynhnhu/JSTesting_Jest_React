@@ -1,8 +1,10 @@
+@import '../../styles//variables';
+
 article {
   height: 82%;
   border-top: solid 1.34px;
   border-bottom: solid 1.34px;
-  border-color: rgb(186, 187, 186);
+  border-color: $gray-3;
 
   section {
     height: 85%;
