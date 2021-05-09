@@ -1,0 +1,22 @@
+article {
+  height: 82%;
+  border-top: solid 1.34px;
+  border-bottom: solid 1.34px;
+  border-color: rgb(186, 187, 186);
+
+  section {
+    height: 85%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* responsive */
+@media only screen and (max-width: 450px) {
+  article { height: 95%; }
+  section { height: 90%; }
+}

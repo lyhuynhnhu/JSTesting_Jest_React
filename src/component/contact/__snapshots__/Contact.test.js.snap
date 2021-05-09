@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Form should render component correctlly with MemoryRouter 1`] = `
+<div
+  className="contact-form"
+>
+  <form
+    className="form-horizontal"
+    data-testid="contact-form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <div
+      className="contact-title"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-envelope fa-w-16 fa-sm icon-envelop"
+        data-icon="envelope"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <p
+        className="contact-us"
+      >
+        Contact us
+      </p>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="left-field"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="label-control"
+            htmlFor="name"
+          >
+            Your name:
+          </label>
+          <input
+            className="name-control form-control"
+            id="name"
+            name="name"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Enter the issue"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className="label-control"
+            htmlFor="typeUser"
+          >
+            Select:
+          </label>
+          <select
+            className="select-control form-control"
+            id="typeUser"
+            name="typeUser"
+            onBlur={[Function]}
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              value="type"
+            >
+              Enter type user
+            </option>
+            <option
+              value="rider"
+            >
+              Rider
+            </option>
+            <option
+              value="driver"
+            >
+              Driver
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="right-field"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="label-control"
+            htmlFor="message"
+            style={
+              Object {
+                "verticalAlign": "top",
+              }
+            }
+          >
+            Message:
+          </label>
+          <textarea
+            className="msg-control form-control"
+            id="message"
+            name="message"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Enter your message"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <button
+        className="btn-control"
+        disabled={true}
+        type="submit"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-arrow-right fa-w-14 fa-2x "
+          data-icon="arrow-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Contact Form should render component correctly 1`] = `
+<div
+  className="contact-form"
+>
+  <form
+    className="form-horizontal"
+    data-testid="contact-form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <div
+      className="contact-title"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-envelope fa-w-16 fa-sm icon-envelop"
+        data-icon="envelope"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <p
+        className="contact-us"
+      >
+        Contact us
+      </p>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="left-field"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="label-control"
+            htmlFor="name"
+          >
+            Your name:
+          </label>
+          <input
+            className="name-control form-control"
+            id="name"
+            name="name"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Enter the issue"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className="label-control"
+            htmlFor="typeUser"
+          >
+            Select:
+          </label>
+          <select
+            className="select-control form-control"
+            id="typeUser"
+            name="typeUser"
+            onBlur={[Function]}
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              value="type"
+            >
+              Enter type user
+            </option>
+            <option
+              value="rider"
+            >
+              Rider
+            </option>
+            <option
+              value="driver"
+            >
+              Driver
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        className="right-field"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="label-control"
+            htmlFor="message"
+            style={
+              Object {
+                "verticalAlign": "top",
+              }
+            }
+          >
+            Message:
+          </label>
+          <textarea
+            className="msg-control form-control"
+            id="message"
+            name="message"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="Enter your message"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <button
+        className="btn-control"
+        disabled={true}
+        type="submit"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-arrow-right fa-w-14 fa-2x "
+          data-icon="arrow-right"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </button>
+    </div>
+  </form>
+</div>
+`;

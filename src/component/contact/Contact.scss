@@ -1,0 +1,187 @@
+@import '../../styles/variables';
+
+.contact-form {
+  width: 60%;
+  height: 70%;
+  margin-top: 30px;
+  background-color: $white-2;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .contact-title {
+    width: 40%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+
+    .icon-envelop {
+      padding-top: 4%;
+    }
+
+    .contact-us {
+      margin: 0 0 0 0;
+      font-size: x-large;
+    }
+  }
+
+  .content {
+    height: 60%;
+    margin-left: 3%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .left-field, .right-field {
+      width: 48%;
+      text-align: start;
+
+      .form-group {
+        outline: none;
+        -webkit-appearance: none;
+        margin-top: 15px;
+        background: $white-1;
+        border: 1px solid $white-1;
+        border-radius: 3px;
+
+        .label-control {
+          padding-left: 10px;
+        }
+
+        .name-control{
+          height: 40px;
+          width: 55%;
+          outline: none;
+          -webkit-appearance: none;
+          padding-left: 5%;
+          background: $white-1;
+          border: none;
+          color: $gray-1;
+          font-size: 15px;
+          line-height: 18px;
+          box-shadow: none;
+        }
+
+        .select-control {
+          height: 40px;
+          width: 75%;
+          padding: 0 0 0 45px;
+          border: none;
+          color: $gray-1;
+          font-size: 15px;
+          line-height: 18px;
+        }
+
+        .msg-control {
+          height: 100px;
+          width: 57%;
+          padding-left: 20px;
+          outline: none;
+          -webkit-appearance: none;
+          border: none;
+          color: $gray-1;
+          font-size: 15px;
+          font-family: Arial;
+          line-height: 18px;
+        }
+      }
+
+      .has-error .label-control {
+        outline: none;
+        box-shadow: none !important;
+        transition: none;
+        border-color: $red !important;
+      }
+
+      .error-control {
+        padding-left: 10px;
+        color: $red;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .btn-control,
+  .btn-control:hover,
+  .btn-control:focus {
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-right: 5%;
+    outline: none;
+    box-shadow: none;
+    border-radius: 50%;
+    background-color: $white-1;
+    border-style: solid;
+    border-color: $gray-2;
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.spinner-icon {
+  width: 20px;
+  height: 20px;
+  animation: spin 2s infinite linear;
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-form { width: 80%; height: 75%; }
+  .contact-title { height: 5%; margin-left: 30%; }
+  .icon-envelop { padding-top: 8%; }
+  .content { 
+      flex-direction: column; 
+      align-items: center; 
+      height: 70%;
+      margin-top: 5px;
+  }
+  .left-field, .right-field { width: 90%; }
+  .btn-control, .btn-control:hover,.btn-control:focus {
+      margin-right: 35%;
+      margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 450px) {
+  .contact-form { width: 90%; }
+  .icon-envelop { padding-top: 6%; }
+  .name-control { padding-left: 10%; width: 90%; }
+  .select-control { padding-left: 10%; width: 90%; }
+  .msg-control { width: 90%; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contact-form { width: 90%; }
+  .icon-envelop { padding-top: 6%; }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact-form { width: 80%; }
+  .icon-envelop { padding-top: 6%; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact-form { width: 75%; }
+  .icon-envelop { padding-top: 5%; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contact-form { width: 60%; }
+  .icon-envelop { padding-top: 4%; }
+}
